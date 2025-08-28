@@ -1,11 +1,11 @@
 "use client";
 import { useState, useEffect } from "react";
 const benefits = [
-  "quoting.",
-  "production.",
-  "client success.",
-  "design.",
-  "installation.",
+  "managing tasks.",
+  "team management.",
+  "tracking projects.",
+  "invoicing.",
+  "more profit.",
 ];
 const typingSpeed = 100;
 const deletingSpeed = 50;
