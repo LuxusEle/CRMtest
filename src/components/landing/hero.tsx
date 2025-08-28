@@ -20,6 +20,9 @@ export function Hero() {
             </p>
           </div>
           <div className="flex flex-col items-center gap-4 md:items-start">
+            <p className="text-lg font-semibold text-foreground">
+              No charge until you land your first active job.
+            </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
               <Button asChild size="lg">
                 <Link href="/signup">Start for Free</Link>
@@ -28,9 +31,6 @@ export function Hero() {
                 <Link href="#video">Watch a Quick Demo</Link>
               </Button>
             </div>
-            <p className="text-sm font-medium text-muted-foreground">
-              No Charge Until Your First Active Job.
-            </p>
           </div>
         </div>
         <div className="flex justify-center">
