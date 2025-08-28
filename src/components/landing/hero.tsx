@@ -19,15 +19,18 @@ export function Hero() {
               Project and a Bigger Bank Account!
             </p>
           </div>
-          <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-            <Button asChild size="lg">
-              <Link href="/signup">
-                Start for Free. No Charge Until Your First Active Job.
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="lg">
-              <Link href="#video">Watch a Quick Demo</Link>
-            </Button>
+          <div className="flex flex-col items-center gap-4 md:items-start">
+            <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
+              <Button asChild size="lg">
+                <Link href="/signup">Start for Free</Link>
+              </Button>
+              <Button asChild variant="outline" size="lg">
+                <Link href="#video">Watch a Quick Demo</Link>
+              </Button>
+            </div>
+            <p className="text-sm font-medium text-muted-foreground">
+              No Charge Until Your First Active Job.
+            </p>
           </div>
         </div>
         <div className="flex justify-center">
