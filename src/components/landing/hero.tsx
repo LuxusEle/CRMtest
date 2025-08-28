@@ -21,7 +21,7 @@ export function Hero() {
           </div>
           <div className="flex flex-col items-center gap-4 md:items-start">
             <p className="text-lg font-semibold text-foreground">
-              No charge until you land your first active job.
+              We are not charging till You land on your First Active Job.
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
               <Button asChild size="lg">
@@ -35,7 +35,7 @@ export function Hero() {
         </div>
         <div className="flex justify-center">
           <Image
-            src="https://storage.googleapis.com/aip-dev-images-us-central1/production/a6f6c770-9830-4e3a-969c-501174620f5c"
+            src="/images/assets_task_01k3qmfke3f0bt4v5rcmk0dakz_1756361242_img_0.webp"
             alt="Cabinetrics application dashboard"
             width={600}
             height={500}
