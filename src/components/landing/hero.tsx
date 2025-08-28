@@ -35,7 +35,7 @@ export function Hero() {
         </div>
         <div className="flex justify-center">
           <Image
-            src="https://picsum.photos/600/500"
+            src="https://storage.googleapis.com/aip-dev-images-us-central1/production/a6f6c770-9830-4e3a-969c-501174620f5c"
             alt="Cabinetrics application dashboard"
             width={600}
             height={500}
