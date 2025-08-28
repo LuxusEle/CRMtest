@@ -40,7 +40,7 @@ export function Hero() {
             width={600}
             height={500}
             className="rounded-xl shadow-2xl"
-            data-ai-hint="application dashboard"
+            data-ai-hint="cabinet workshop"
           />
         </div>
       </div>
