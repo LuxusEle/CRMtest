@@ -1,23 +1,19 @@
 "use client";
-
 import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
-
 const benefits = [
-  "Smart Organization.",
-  "Seamless Collaboration.",
-  "Enhanced Productivity.",
-  "Creative Freedom.",
+  "quoting.",
+  "production.",
+  "client success.",
+  "design.",
+  "installation.",
 ];
 const typingSpeed = 100;
 const deletingSpeed = 50;
 const pauseDuration = 2000;
-
 export function AnimatedBenefits() {
   const [benefitIndex, setBenefitIndex] = useState(0);
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
-
   useEffect(() => {
     const handleTyping = () => {
       const currentBenefit = benefits[benefitIndex];
@@ -36,15 +32,12 @@ export function AnimatedBenefits() {
         }
       }
     };
-
     const timeout = setTimeout(
       handleTyping,
       isDeleting ? deletingSpeed : typingSpeed
     );
-
     return () => clearTimeout(timeout);
   }, [text, isDeleting, benefitIndex]);
-
   return (
     <span className="font-semibold text-primary">
       {text}
