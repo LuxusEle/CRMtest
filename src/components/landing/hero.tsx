@@ -9,7 +9,9 @@ export function Hero() {
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-6 lg:px-8">
         <div className="space-y-6 text-center md:text-left">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-            The all-in-one platform for <AnimatedBenefits />
+            The all-in-one platform for
+            <br />
+            <AnimatedBenefits />
           </h1>
           <div className="space-y-4 text-lg text-muted-foreground md:text-xl">
             <p>
