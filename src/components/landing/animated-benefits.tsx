@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 const benefits = [
   "managing tasks.",
-  "Manage Staff",
+  "managing staff",
   "tracking projects.",
   "invoicing.",
   "more profit.",

@@ -8,7 +8,7 @@ export function Hero() {
     <section id="features" className="py-20 md:py-32">
       <div className="container mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 md:grid-cols-2 md:px-6 lg:px-8">
         <div className="space-y-6 text-center md:text-left">
-          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl">
             The all-in-one platform for
             <br />
             <AnimatedBenefits />
