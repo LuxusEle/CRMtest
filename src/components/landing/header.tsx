@@ -1,3 +1,4 @@
+// @ts-ignore
 import Link from "next/link";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
@@ -9,24 +10,15 @@ export function Header() {
         <div className="flex items-center gap-6">
           <Logo />
           <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-            <Link
-              href="#features"
-              className="text-foreground/60 transition-colors hover:text-foreground/80"
-            >
-              Features
-            </Link>
-            <Link
-              href="#video"
-              className="text-foreground/60 transition-colors hover:text-foreground/80"
-            >
-              Demo
-            </Link>
-            <Link
-              href="#"
-              className="text-foreground/60 transition-colors hover:text-foreground/80"
-            >
-              Pricing
-            </Link>
+            <Link href="/crm" className="text-foreground/60 transition-colors hover:text-foreground/80">CRM</Link>
+            <Link href="/projects" className="text-foreground/60 transition-colors hover:text-foreground/80">Projects</Link>
+            <Link href="/boms" className="text-foreground/60 transition-colors hover:text-foreground/80">BOM</Link>
+            <Link href="/purchase-orders" className="text-foreground/60 transition-colors hover:text-foreground/80">Purchase Orders</Link>
+            <Link href="/finance" className="text-foreground/60 transition-colors hover:text-foreground/80">Finance</Link>
+            <Link href="/inventory" className="text-foreground/60 transition-colors hover:text-foreground/80">Inventory</Link>
+            <Link href="#features" className="text-foreground/60 transition-colors hover:text-foreground/80">Features</Link>
+            <Link href="#video" className="text-foreground/60 transition-colors hover:text-foreground/80">Demo</Link>
+            <Link href="#" className="text-foreground/60 transition-colors hover:text-foreground/80">Pricing</Link>
           </nav>
         </div>
         <div className="flex items-center gap-2">
